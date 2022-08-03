@@ -1,0 +1,84 @@
+/*------------- ALL WEBPAGES -------------------*/
+
+
+
+body {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, #ffe0b1, #ffd2b5, #ffc5c7, #ffbfe0, #edc0f9);
+    background-attachment: fixed;
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace
+}
+
+/*-------------- INDEX MENU PAGE ---------------*/
+
+.maintitle,
+.headers {
+    color: rgb(252, 241, 241);
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgb(95, 95, 95);
+
+
+}
+
+.indeximages {
+    border-radius: 10%;
+    
+}
+
+
+.pinkbutton {
+    padding: 5px 10px;
+    outline:0px;
+    border:1px solid rgb(107, 107, 107);
+    border-radius: 5%;
+    font-family: inherit;
+    color: rgb(80, 79, 79);
+    background-color:rgb(248, 202, 202);
+    
+    
+}
+
+.pinkbutton:hover {
+    background-color: rgb(233, 164, 250)
+}
+
+/*--------------RECIPE PAGES------------------*/
+
+.recipetext,
+.headers,
+.ingredients,
+.steps {
+    text-align: left;
+}
+
+.recipetext,
+.ingredients,
+.steps {
+    color: rgb(80, 79, 79)
+}
+
+.recipeimage {
+    height: auto;
+    width: 400px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.parentbackbutton {
+    text-align:left;
+}
+
+.backbutton {
+    outline:0px;
+    border:1px solid rgb(107, 107, 107);
+    border-radius: 5%;
+    font-family: inherit;
+    color: rgb(80, 79, 79);
+    background-color:rgb(248, 202, 202); 
+}
+
+.backbutton:hover {
+    background-color: rgb(233, 164, 250)
+}
